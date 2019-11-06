@@ -28,5 +28,15 @@ class TestStringMethods(unittest.TestCase):
         result_multiply = multiply(10, 2)
         self.assertEquals(20, result_multiply)
 
+    def test_even_1(self):
+
+        result_even_1 = is_even(20)
+        self.assertEquals(True, result_even_1)
+    
+    def test_even_2(self):
+
+        result_even_2 = is_even(19)
+        self.assertEquals(False, result_even_2)
+
 if __name__ == '__main__':
     unittest.main()

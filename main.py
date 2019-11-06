@@ -9,3 +9,6 @@ def divide(a, b):
 
 def multiply(a, b):
   return a * b
+
+def is_even(a):
+  return True if a % 2 == 0 else False
