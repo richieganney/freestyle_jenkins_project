@@ -11,4 +11,4 @@ def multiply(a, b):
   return a * b
 
 def is_even(a):
-  return True if a % 2 == 0 else False
+  return a % 2 == 0
